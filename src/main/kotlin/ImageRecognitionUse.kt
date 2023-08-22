@@ -15,7 +15,7 @@ fun main() {
         8 to "Bag",
         9 to "Ankle boots"
     )
-    var imageID: Int = Random.nextInt(0,10000)
+    val imageID: Int = Random.nextInt(0,10000)
     val (train, test) = fashionMnist()
     TensorFlowInferenceModel.load(File("model/my_model")).use{
         it.reshape(28,28,1)
