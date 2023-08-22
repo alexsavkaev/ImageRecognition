@@ -1,5 +1,5 @@
 import org.jetbrains.kotlinx.dl.api.inference.TensorFlowInferenceModel
-import org.jetbrains.kotlinx.dl.dataset.fashionMnist
+import org.jetbrains.kotlinx.dl.dataset.embedded.fashionMnist
 import java.io.File
 import kotlin.random.Random
 
